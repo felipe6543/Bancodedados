@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Banco_de_dados">
+
+    <TextView
+        android:id="@+id/text_view_amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quantidade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/text_view_initials"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Siglas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:id="@+id/text_view_construct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Construtor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/text_view_age"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Idade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/text_view_application"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Aplicação"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <TextView
+        android:id="@+id/text_view_application_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tempo de aplicação"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <TextView
+        android:id="@+id/text_view_correction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Correção"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+        android:id="@+id/text_view_validity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Validade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/text_view_object"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Objeto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/text_view_target_audience"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Público Alvo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <TextView
+        android:id="@+id/text_view_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Descrição"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <TextView
+        android:id="@+id/text_view_items"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Itens"
+        app:layout_constraintEnd_toEndOf="@+id/text_view_description"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/text_view_professionals_who_can_apply"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Profissionais que poder aplicar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <TextView
+        android:id="@+id/text_view_context"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Contexto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="409dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
